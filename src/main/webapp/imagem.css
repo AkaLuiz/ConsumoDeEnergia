@@ -1,0 +1,28 @@
+body{
+    background-image: url(imagem.jpg);
+    background-size: cover;
+}
+
+table{
+    
+    margin-top: 10px;
+    display:table;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    
+}
+.bordinha{
+    margin-top: 50px;
+    margin-left:25%;
+    margin-bottom:25px;
+    width: 705px;
+    padding:0px;
+    border: transparent ;
+    border-radius:5px;
+    background: #ffffff90;
+}
+tr:nth-child(odd) {
+    background: #ffffff90;
+  }
+

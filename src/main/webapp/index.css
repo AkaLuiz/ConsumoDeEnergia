@@ -1,0 +1,51 @@
+
+
+
+body{
+    padding-left: 20%;
+    background-image: url(127447954.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.borda{
+    background-color: #ffffff80;
+    padding: 5px;
+    border-radius: 5px; 
+    box-shadow: 3px 4px 5px #00000060;
+    display:table;
+}
+
+.bordaP{
+  width:800px;
+  text-align: justify;
+  background-color: #ffffff80;
+  padding: 5px;
+  border-radius: 5px; 
+  box-shadow: 3px 4px 5px #00000060;
+  display:table;
+}
+
+.botao{
+  text-decoration: none;
+  background-color: #ffffff80;
+  border: transparent;
+  border-color: BLACK;
+  color: BLACK;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.botao:hover{
+  background-color: BLACK;
+  color: #fff;
+}
+

@@ -1,0 +1,146 @@
+body{
+    background-image: url(127447954.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+    height: 100%;
+    
+}
+.kwh{
+  padding:10px;
+    display:table;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgba(226, 226, 226, 0.521);
+    border-bottom: 40px rgba(226, 226, 226, 0.521);
+    box-shadow: 3px 4px 5px #00000060;
+}
+.borda{
+  margin:15px;
+  margin-top: 10px;
+  display:table;
+  border:transparent solid;
+  border-radius:5px;
+  background-color: #ffffff80;
+  border-bottom: 5px;
+  
+}
+
+.quadro{
+    position:absolute;
+    display:table;
+    border:solid transparent;
+    border-radius: 5px;
+    background-color: #ffffff80;
+    padding:20px;
+    margin-top:100px;
+    left:50%;
+    box-shadow: 3px 4px 5px #00000060;
+    width:290px;
+    margin-left:-145px;
+}
+
+.botao{
+  text-decoration: none;
+  background-color: #ffffff80;
+  border: transparent;
+  border-color: BLACK;
+  color: BLACK;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.botao:hover{
+  background-color: BLACK;
+  color: #fff;
+}
+
+.botaoE{
+  height:5%;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-left:190px;
+  top:90px;
+
+}
+
+
+  .form-grup{
+    position:relative;
+  }
+
+    input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    width:100%;
+    }
+
+    input:focus{
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border-top:none; 
+    border-left:none;
+    border-right:none;
+    outline: 0;
+    
+    }
+
+    .form-grup label{
+      position:absolute;
+      left:5px;
+      opacity:0.5;
+      pointer-events: none;
+      transition: 0.5s;
+   }
+
+   .form-grup input:focus + label,
+   .form-grup input:hover + label,
+   .form-grup input:valid + label
+   {
+      font-size: small;
+      transform: translateY(-20px);
+      opacity:1;
+    }
+
+    .dista{
+      margin-left:15px;
+    }
+
+
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.bordinha{
+  margin-top: 50px;
+  margin-left:25%;
+  margin-bottom:25px;
+  width: 705px;
+  padding:0px;
+  border: transparent ;
+  border-radius:5px;
+  background: #ffffff90;
+}
+tr:nth-child(odd) {
+  background: #ffffff90;
+}
+
+.aparece p {
+  display:none;
+  
+}
+.aparece:hover p{
+  display:block;
+}
+

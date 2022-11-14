@@ -1,0 +1,96 @@
+body{
+    background-image: url(127447954.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed
+}
+
+
+form{
+    margin-left:800px;
+    display:table;
+    margin: auto;
+}
+
+.formlabel2{
+  display: table;
+  justify-content: center;
+  margin-top: 100px;
+   background-color: #ffffff80;
+   padding:20px;
+   border:solid transparent;
+   border-radius: 5px;
+   box-shadow: 3px 4px 5px #00000060;
+}
+
+.btn-primary{
+    margin-top:10px;
+    margin-left: -4%;
+}
+
+
+
+.display{
+  display:grid;
+}
+
+a{
+    text-decoration: none;
+    background-color: #ffffff80;
+    border-color: BLACK;
+    color: BLACK;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+  }
+  
+  a:hover{
+    background-color: BLACK;
+    color: #fff;
+  }
+
+  input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+
+    outline: none;
+    width: 100%;
+    padding: 5px 5px;
+    }
+
+    input:focus{
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border-top:none; 
+    border-left:none;
+    border-right:none;
+    outline: 0;
+    }
+
+    .form-grup{
+      position:relative;
+    }
+
+    .form-grup label{
+      position:absolute;
+      left:5px;
+      opacity:0.5;
+      pointer-events: none;
+      transition: 0.5s;
+   }
+
+   .form-grup input:focus + label,
+   .form-grup input:hover + label,
+   .form-grup input:valid + label
+   {
+      font-size: small;
+      transform: translateY(-20px);
+      opacity:1;
+    }
+
